@@ -19,5 +19,15 @@ const quiz_questions = [
             "All My Demons Greeting Me as a Friend"
         ]
     },
+    {
+        question: "Who is Aurora Aknes?",
+        answer : "singer",
+        options: [
+            "singer",
+            "writer",
+            "sportsman",
+            "actor"
+        ]
+    }
 
 ]

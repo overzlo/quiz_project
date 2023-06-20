@@ -5,6 +5,9 @@
     text-decoration: none;
     list-style-type:armenian;
 }
+.hidden {
+    display: none !important;
+}
 
 .quiz{
     margin-top: 70px;
@@ -32,6 +35,8 @@
 }
 .quiz_answer{
     display: flex;
+        justify-content: space-between;
+
     flex-direction: column;
     font-size: 30px;
     font-family:'Times New Roman', Times, serif;
