@@ -31,13 +31,20 @@ function selectAnswer(answer){
 
     if(selectedAnswer == trueAnswer){
         score++;
-        alert("true");
         count++;
         showTitle(count);
     }
     else{
-        alert("false")
+        count++;
+        showTitle(count);
     }
+    
+    // if()
+    // if((count ) == quiz_questions.length){
+    //     let div = document.createElement('div')
+    //     div.innerHTML = `Score ${score}`
+    //     return;
+    // } 
 
 }
 console.log(count);
